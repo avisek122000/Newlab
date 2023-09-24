@@ -32,5 +32,6 @@ public class RewardValueTests {
         var rewardValue = new RewardValue(milesValue);
         double expectedCashValue = milesValue * 0.0035;
         assertEquals(expectedCashValue, rewardValue.getCashValue());
+        //making additional change to create PR
     }
 }
